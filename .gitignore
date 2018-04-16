@@ -1,0 +1,6 @@
+.project
+*.o
+bsdrsvr
+/Debug/
+*.cbp
+test_bsdr

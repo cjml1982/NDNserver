@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bsdrca>
+  <DEVICEGROUPID ID="ztehhhh" />
+  <NAMEPUB ReExpressTimer="2" />
+  <CIPHERS SwitcherNo="1" />
+  <BPM ThreadNumber="1" />
+  <CONSUMER ThreadNumber="2" />
+  <PRODUCER ThreadNumber="3" />
+  <MYSQLPOOL MySQLPoolSize="10" />
+  <ASYNTHREAD AsynThreadSize="1" />
+  <!--db service -->
+  <!-- <DBSERVER ip = "172.16.25.129" /> -->
+  <DBSERVER dbip = "172.16.25.112" />
+  <!-- <DBSERVER ip = "172.16.25.113" /> -->
+  <!-- <node name="bsdr0" ip="172.16.25.235"  />
+  <node name="bsdr1" ip="172.16.25.238"  /> -->
+  <!-- <node name="bcr0" ip="172.16.25.234"  /> -->
+  <NODE name="bcr2" ip="172.16.25.237"  />
+
+</bsdrca>
+
+<!-- <bsdrca>
+  <MARKET ID="bsdr3" />
+  <NAMEPUB ReExpressTimer="2" />
+  <CIPHERS SwitcherNo="1" />
+  <BPM ThreadNumber="50" />
+  <CONSUMER ThreadNumber="50" />
+  <PRODUCER ThreadNumber="50" />
+  <node name="bsdr3" ip="172.16.25.230" port="9332" />
+  <node name="bcr2" ip="172.16.25.237" port="9332" />
+</bsdrca> -->

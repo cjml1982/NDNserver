@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<radosgw>
+	<host>172.16.25.111</host>
+	<users>
+		<user name="fxsf">
+			<access_key>2RSR05J8CKWEC974GCI5</access_key>
+			<secret_key>pyrcpTm3DCmIi3EMAnG6fOuJRP5K18Dk1oUg0pUi</secret_key>
+			<buckets>
+				<bucket>SmallBucket</bucket>
+			</buckets>
+		</user>
+		<user name="fxmf">
+			<access_key>MXWDEZRALCTN6NOOBJ7M</access_key>
+			<secret_key>vCGWgDyCxzMv8TQXxUqWLfclGsBvPbshqA3pWzf6</secret_key>
+			<buckets>
+				<bucket>MiddleBucket</bucket>
+			</buckets>
+		</user>
+		<user name="fxlf">
+			<access_key>J6415GQPYXYOWFLE9YBG</access_key>
+			<secret_key>HyYhkp21a0gFqDcLUCFHcONbYw6sEAvG4JALwjhy</secret_key>
+			<buckets>
+				<bucket>LargeBucket</bucket>
+			</buckets>
+		</user>
+	</users>
+</radosgw>

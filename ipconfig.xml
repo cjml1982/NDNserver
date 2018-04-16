@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<baarlist count="2">
+	<baar ip="172.16.25.111" />
+	<!-- <baar ip="172.16.25.236" /> -->
+</baarlist>
